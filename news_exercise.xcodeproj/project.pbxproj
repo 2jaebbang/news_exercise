@@ -13,6 +13,8 @@
 		4381215825C4FA740080B5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4381215625C4FA740080B5DA /* Main.storyboard */; };
 		4381215A25C4FA750080B5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4381215925C4FA750080B5DA /* Assets.xcassets */; };
 		4381215D25C4FA750080B5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4381215B25C4FA750080B5DA /* LaunchScreen.storyboard */; };
+		4381216625C5058E0080B5DA /* Type1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4381216525C5058E0080B5DA /* Type1.swift */; };
+		4381217325C55F1D0080B5DA /* NewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4381217225C55F1D0080B5DA /* NewsDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4381215925C4FA750080B5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4381215C25C4FA750080B5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4381215E25C4FA750080B5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4381216525C5058E0080B5DA /* Type1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Type1.swift; sourceTree = "<group>"; };
+		4381217225C55F1D0080B5DA /* NewsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				4381215225C4FA740080B5DA /* SceneDelegate.swift */,
 				4381215425C4FA740080B5DA /* ViewController.swift */,
 				4381215625C4FA740080B5DA /* Main.storyboard */,
+				4381216525C5058E0080B5DA /* Type1.swift */,
 				4381215925C4FA750080B5DA /* Assets.xcassets */,
 				4381215B25C4FA750080B5DA /* LaunchScreen.storyboard */,
 				4381215E25C4FA750080B5DA /* Info.plist */,
+				4381217225C55F1D0080B5DA /* NewsDetailController.swift */,
 			);
 			path = news_exercise;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4381215525C4FA740080B5DA /* ViewController.swift in Sources */,
+				4381217325C55F1D0080B5DA /* NewsDetailController.swift in Sources */,
+				4381216625C5058E0080B5DA /* Type1.swift in Sources */,
 				4381215125C4FA740080B5DA /* AppDelegate.swift in Sources */,
 				4381215325C4FA740080B5DA /* SceneDelegate.swift in Sources */,
 			);
